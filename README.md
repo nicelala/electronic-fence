@@ -11,16 +11,8 @@
 1. [Project Motivation](#project-motivation)  
 2. [Features](#features)  
 3. [Architecture](#architecture)  
-4. [Quick Start](#quick-start)  
-5. [Configuration](#configuration)  
-6. [Directory Layout](#directory-layout)  
-7. [Model Lifecycle (Training → Deploy)](#model-lifecycle)  
-8. [Hardware Requirements](#hardware-requirements)  
-9. [Packaging & Release](#packaging--release)  
-10. [FAQ](#faq)  
-11. [Contributing](#contributing)  
-12. [License](#license)  
-
+4. [Quick Start](#quick-start)
+   
 ---
 
 ## Project Motivation
@@ -55,7 +47,11 @@ RTSP Camera → FFMPEGStreamThread ─┐
         │ Sound (mp3)   │  Relay (USB)  │  LINE / E-mail│
         └───────────────┴───────────────┴───────────────┘
 GUI (PyQt5)  ←───────────── Frame & Meta ───────────────┘
+```
 
+---
+
+## Quick Star
 # 1 / Clone repository  (with Git LFS)
 git clone --recurse-submodules https://github.com/nicelala/electronic-fence.git
 cd electronic-fence
