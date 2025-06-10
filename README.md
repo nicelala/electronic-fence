@@ -52,6 +52,7 @@ GUI (PyQt5)  ←───────────── Frame & Meta ───�
 ---
 
 ## Quick Star
+```
 # 1 / Clone repository  (with Git LFS)
 git clone --recurse-submodules https://github.com/nicelala/electronic-fence.git
 cd electronic-fence
@@ -71,3 +72,4 @@ cp config/roi_settings.template.json  config/roi_settings.json
 
 # 5 / Run
 python _ipcam_ROI_YOLO_classesAnnotation_0416.py
+```
